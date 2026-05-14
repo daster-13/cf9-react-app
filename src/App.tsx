@@ -57,12 +57,12 @@ function App() {
           {/*    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet, deserunt dicta excepturi fugit ipsa modi perferendis quo repellat voluptates."*/}
           {/*/>*/}
 
-          <Layout>
+          <Layout addClasses="text-blue-600 bg-gray-100 ">
           <ArrowFunctionalComponentWithProps
               title="Second Title"
               description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet, deserunt dicta excepturi fugit ipsa modi perferendis quo repellat voluptates."
           />
-              <p className="text-red-700">Lorem ipsum dolor sit amet.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
           </Layout>
 
 
