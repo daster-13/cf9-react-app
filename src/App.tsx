@@ -3,7 +3,8 @@
 // import ArrowFunctionalComponent from "./components/LessonTwo/ArrowFunctionalComponent.tsx";
 // import ArrowFunctionalComponentWithProps from "./components/LessonThree/ArrowFunctionalComponentWithProps.tsx";
 import Layout from "./components/Layout.tsx";
-import CounterAdvanced from "./components/LessonFour/CounterAdvances.tsx";
+// import CounterAdvanced from "./components/LessonFour/CounterAdvances.tsx";
+import NameChanger from "./components/LessonFive/NameChanger.tsx";
 // import Counter  from "./components/LessonFour/Counter.tsx"
 // import ClassCounter from "./components/LessonFour/ClassCounter.tsx";
 
@@ -47,7 +48,7 @@ import CounterAdvanced from "./components/LessonFour/CounterAdvances.tsx";
 function App() {
 
 
-  return (
+    return (
 
       <>
           {/*Lesson Two*/}
@@ -55,25 +56,30 @@ function App() {
           {/*<ClassComponent />*/}
           {/*<ArrowFunctionalComponent />*/}
 
-          {/*Lesson Three */}
+          {/*LESSON THREE*/}
           {/*<ArrowFunctionalComponentWithProps title="Heading 1"/>*/}
           {/*<ArrowFunctionalComponentWithProps*/}
+          {/*  title="Second Title"*/}
+          {/*  description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet, deserunt dicta excepturi fugit ipsa modi perferendis quo repellat voluptates."*/}
+          {/*/>*/}
+          {/*<Layout addClasses="bg-gray-100">*/}
+          {/*  <ArrowFunctionalComponentWithProps*/}
           {/*    title="Second Title"*/}
           {/*    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet, deserunt dicta excepturi fugit ipsa modi perferendis quo repellat voluptates."*/}
-          {/*/>*/}
+          {/*  />*/}
+          {/*</Layout>*/}
 
+          {/*LESSON FOUR*/}
+          {/*<Layout addClasses="bg-gray-50">*/}
+          {/*  /!*<Counter/>*!/*/}
+          {/*  /!*<ClassCounter/>*!/*/}
+          {/*  <CounterAdvanced/>*/}
+          {/*</Layout>*/}
+
+          {/* Lesson Five */}
           <Layout addClasses="bg-gray-50 ">
-          {/*<ArrowFunctionalComponentWithProps*/}
-          {/*    title="Second Title"*/}
-          {/*    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet, deserunt dicta excepturi fugit ipsa modi perferendis quo repellat voluptates."*/}
-          {/*/>*/}
-          {/*    <p>Lorem ipsum dolor sit amet.</p>*/}
-          {/*    <Counter/>*/}
-          {/*    <ClassCounter/>*/}
-              <CounterAdvanced/>
+           <NameChanger/>
           </Layout>
-
-
       </>
   )
 
