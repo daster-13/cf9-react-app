@@ -3,9 +3,10 @@
 // import ArrowFunctionalComponent from "./components/LessonTwo/ArrowFunctionalComponent.tsx";
 // import ArrowFunctionalComponentWithProps from "./components/LessonThree/ArrowFunctionalComponentWithProps.tsx";
 import Layout from "./components/Layout.tsx";
-// import CounterAdvanced from "./components/LessonFour/CounterAdvances.tsx";
+// import CounterAdvanced from "./components/LessonFour/CounterAdvanced.tsx";
 // import NameChanger from "./components/LessonFive/NameChanger.tsx";
-import CounterWithCustomHooks from "./components/LessonFive/CounterWithCustomHooks.tsx";
+// import CounterWithCustomHooks from "./components/LessonFive/CounterWithCustomHooks.tsx";
+import AutoRedirect from "./components/LessonSix/AutoRedirect.tsx";
 // import Counter  from "./components/LessonFour/Counter.tsx"
 // import ClassCounter from "./components/LessonFour/ClassCounter.tsx";
 
@@ -78,9 +79,14 @@ function App() {
           {/*</Layout>*/}
 
           {/* Lesson Five */}
+          {/*<Layout addClasses="bg-gray-50 ">*/}
+          {/* /!*<NameChanger/>*!/*/}
+          {/*    <CounterWithCustomHooks/>*/}
+          {/*</Layout>*/}
+
+          {/* Lesson Six */}
           <Layout addClasses="bg-gray-50 ">
-           {/*<NameChanger/>*/}
-              <CounterWithCustomHooks/>
+              <AutoRedirect/>
           </Layout>
       </>
   )
