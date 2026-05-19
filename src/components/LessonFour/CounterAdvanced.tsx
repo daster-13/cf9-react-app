@@ -1,11 +1,11 @@
 import {useState} from "react";
 import CounterButton from "./CounterButton.tsx";
-
-type CounterState ={
+export type CounterState = {
     counter: number;
     lastAction: string;
     time: string;
 }
+
 const initialState = {
     counter: 0,
     lastAction: "",
@@ -30,7 +30,7 @@ const CounterAdvanced = () => {
         if (state.counter > 0) {
             setState({
                 counter: state.counter - 1,
-                lastAction: "Increase",
+                lastAction: "Decrease",
                 time: getCurrentTime(),
 
             })
@@ -40,7 +40,7 @@ const CounterAdvanced = () => {
     const resetCount = () => {
         setState({
             counter: 0,
-            lastAction: "Increase",
+            lastAction: "Reset",
             time: getCurrentTime(),
 
         })
