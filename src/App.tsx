@@ -7,7 +7,8 @@ import Layout from "./components/Layout.tsx";
 // import NameChanger from "./components/LessonFive/NameChanger.tsx";
 // import CounterWithCustomHooks from "./components/LessonFive/CounterWithCustomHooks.tsx";
 // import AutoRedirect from "./components/LessonSix/AutoRedirect.tsx";
-import AutoRedirectAdvanced from "./components/LessonSix/AutoRedirectAdvanced.tsx";
+// import AutoRedirectAdvanced from "./components/LessonSix/AutoRedirectAdvanced.tsx";
+import WindowSize from "./components/LessonSix/WindowSize.tsx";
 
 // import Counter  from "./components/LessonFour/Counter.tsx"
 // import ClassCounter from "./components/LessonFour/ClassCounter.tsx";
@@ -89,7 +90,8 @@ function App() {
           {/* Lesson Six */}
           <Layout addClasses="bg-gray-50 ">
               {/*<AutoRedirect/>*/}
-              <AutoRedirectAdvanced/>
+              {/*<AutoRedirectAdvanced/>*/}
+              <WindowSize/>
 
 
           </Layout>
