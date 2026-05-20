@@ -7,6 +7,7 @@ const WindowSize = () => {
     });
 
     useEffect(() => {
+
         //SetUp
         const handleResize = () => {
             setSize({

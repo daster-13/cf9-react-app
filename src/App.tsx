@@ -93,7 +93,6 @@ function App() {
               {/*<AutoRedirectAdvanced/>*/}
               <WindowSize/>
 
-
           </Layout>
       </>
   )
