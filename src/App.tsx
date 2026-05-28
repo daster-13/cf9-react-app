@@ -75,6 +75,9 @@ import MultiFieldFormWithValidation from "./components/LessonNine/MultiFieldForm
 // useEffect(setup, [count])
 
 
+function ProductListPage() {
+    return null;
+}
 
 function App() {
 
@@ -175,6 +178,13 @@ function App() {
                     <Route path="multifield-form-validation" element={<MultiFieldFormWithValidation/>}/>
                     <Route path="multifield-form-zod" element={<MultiFieldFormValidationWithZod />}/>
                     <Route path="multifield-form-hook-form" element={<MultiFieldFormWithHookForm/>}/>
+
+                    <Route path="products">
+                        <Route index element={<ProductListPage/>} />
+                        {/*<Route path=":productId" element={<ProductPage/>}/>*/}
+
+
+                    </Route>
                 </Route>
                 {/* /files/* */}
                 {/*<Route path="files/*" element={<File />} />*/}
