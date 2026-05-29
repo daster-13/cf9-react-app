@@ -2,6 +2,8 @@ import Header from "./Header.tsx";
 import Footer from "./Footer.tsx";
 import {Outlet} from "react-router";
 
+import {Toaster} from "sonner";
+
 const RouterLayout = () => {
     return (
         <>
@@ -11,6 +13,7 @@ const RouterLayout = () => {
                     <Outlet />
                 </main>
                 <Footer/>
+                <Toaster/>
             </div>
         </>
     )
