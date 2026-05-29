@@ -19,6 +19,6 @@ export const productSchema = z.object({
 })
 export type Product = z.infer<typeof productSchema>
 
-export const product = productSchema.omit({id: true})
+export const productFormSchema = productSchema.omit({id: true})
 
 export type ProductFormData = z.infer<typeof productSchema>;
